@@ -12,7 +12,7 @@ function updateChanged(element) {
 for (select of dropdwon) {
     for (d in currValue) {
         let option = document.createElement("option");
-        option.innerHTML = d + ' - '+currValue[d]
+        option.innerHTML = d
         option.value = d
         select.append(option);
 
