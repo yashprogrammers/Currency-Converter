@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Currency Converter</h1>
+      <input type="number" placeholder="Enter Amount: Ex. 32" id="num" />
+      <div class="dropdown">
+        <div class="from">
+          <p># From</p>
+          <div class="country">
+            <img src="https://flagsapi.com/US/flat/64.png" />
+            <select name="from" id="from"></select>
+          </div>
+        </div>
+        <div class="to">
+          <p># To</p>
+          <div class="country">
+            <img src="https://flagsapi.com/IN/flat/64.png" />
+            <select name="to" id="to"></select>
+          </div>
+        </div>
+      </div>
+      <button onclick="exchangeRate()">Converter</button>
+
+      <div id="finalAns">Hello World!</div>
+    </div>
+
+    
+    <script src="codes.js"></script>
+    <script src="currency.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
